@@ -134,20 +134,24 @@ p.lead {
     font-family: 'Oswald', sans-serif;
 }
 
-.font-dark {
-    color: #222;
+.font-darker {
+    color: #222 !important;
 }
 
 .font-white {
-    color: white;
+    color: white !important;
 }
 
 .font-grey {
-    color: #ddd;
+    color: #ddd !important;
+}
+
+.font-dark {
+    color: #333 !important;
 }
 
 .font-orange {
-    color: #f39c12;
+    color: #f39c12 !important;
 }
 
 .font-60 {
@@ -780,24 +784,30 @@ hr.bold {
 }
 
 .bg-white {
-    background: #fff;
+    background: #fff !important;
     color: #000;
 }
 
 .bg-grey {
-    background: #bbb;
+    background: #bbb !important;
     color: #000;
 }
 
 .bg-orange {
-    background: #eaa22c;
+    background: #eaa22c !important;
     color: #111;
 }
 
 .bg-dark {
-    background: #333;
+    background: #333 !important;
     color: #eee;
 }
+
+.bg-darker {
+    background: #222 !important;
+    color: #eee;
+}
+
 
 .p-top-20 {
     padding-top: 200px;
@@ -850,9 +860,10 @@ hr.bold {
 /* Main land */
 .land {
     background-image: url("../img/blackbg.jpg");
-    background-repeat: round;
+    background-size: 102% 102%;
+    background-repeat: no-repeat;
     background-position: center;
-    background-color: midnightblue;
+    background-color: #f39c12;
     max-width: 100%;
     overflow-x: hidden;
     min-height: 80%;
@@ -860,6 +871,20 @@ hr.bold {
 
 .bg10 {
     background-image: url("../img/bg10.png");
+}
+
+.bg6 {
+    background-image: url("../img/bg6.jpeg");
+    background-attachment: fixed;
+}
+
+.bg5 {
+    background-image: url("../img/bg5.jpeg");
+    background-attachment: fixed;
+}
+
+.bg4 {
+    background-image: url("../img/bg4.jpeg");
 }
 
 .bg3 {
@@ -1953,58 +1978,6 @@ footer .social-widget ul.team-social li a {
     background: #f8f8f8;
 }
 
-.page-scroll .btn-circle i.animated {
-    -webkit-transition-property: -webkit-transform;
-    -webkit-transition-duration: 1s;
-    -moz-transition-property: -moz-transform;
-    -moz-transition-duration: 1s;
-}
-
-.page-scroll .btn-circle:hover i.animated {
-    -webkit-animation-name: pulse;
-    -moz-animation-name: pulse;
-    -webkit-animation-duration: 1.5s;
-    -moz-animation-duration: 1.5s;
-    -webkit-animation-iteration-count: infinite;
-    -moz-animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
-    -moz-animation-timing-function: linear;
-}
-
-@-webkit-keyframes pulse {
-    0 {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-    }
-
-    50% {
-        -webkit-transform: scale(1.2);
-        transform: scale(1.2);
-    }
-
-    100% {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-    }
-}
-
-@-moz-keyframes pulse {
-    0 {
-        -moz-transform: scale(1);
-        transform: scale(1);
-    }
-
-    50% {
-        -moz-transform: scale(1.2);
-        transform: scale(1.2);
-    }
-
-    100% {
-        -moz-transform: scale(1);
-        transform: scale(1);
-    }
-}
-
 #text {
     color: #fff;
     background: #ffcc00;
@@ -2929,6 +2902,8 @@ a.dropbtn {
     margin-top: 7px;
 }
 
+
+
 .accordion:hover {
     border-bottom: #111 solid 0px;
     background-color: #f39c12;
@@ -2941,6 +2916,8 @@ a.dropbtn {
     border-radius: 8px 8px 0px 0px;
     border-bottom: #111 solid 0px;
 }
+
+
 
 .accordion-container .content {
     font-size: 16px;
@@ -2963,6 +2940,27 @@ a.dropbtn {
 .activetoggle:after {
     content: "\2796";
     color: #f39c12 !important;
+}
+
+/* // Extra for FAQs Sectio */
+
+.bg-grey .accordion {
+    background-color: #333;
+    color: #ccc;
+}
+
+.bg-grey .accordion:hover {
+    background-color: #f39c12;
+    color: #333;
+}
+
+.bg-grey .activetoggle {
+    background-color: #f39c12;
+    color: #333;
+}
+
+.bg-grey .accordion-container {
+    width: 90%;
 }
 
 @media only screen and (max-width: 768px) {
