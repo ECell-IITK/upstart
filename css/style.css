@@ -1520,8 +1520,7 @@ hr {
 }
 
 .panelists img {
-  width: 179px;
-  height: 170px;
+  width: 75%;
   /* border-radius: 50%; */
   /* margin-bottom: 20px; */
 }
