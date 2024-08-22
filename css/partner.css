@@ -1,0 +1,50 @@
+.section{
+    padding-top: 0;
+    display: none;
+  }
+  .option{
+    background-color: black;
+    height: 200px;
+  }
+  .btn{
+    font-size: 1rem;
+    margin-bottom: .5rem;
+    background-color: transparent;
+    /* border: none; */
+border: none;    /* height: 100%; */
+    flex-basis: 100%;
+        align-self:stretch;
+color:white;
+font-size: 2rem;
+font-weight: 400;
+    padding: .5rem .5rem ;
+    transition: all .5s ease;
+
+    
+  }
+  .btn:hover{
+    cursor: pointer;
+    color: rgb(30, 215, 215);
+    font-size: 2.25rem;
+  }
+  .btn:active{
+    color: rgb(26, 188, 203);
+  }
+  .frame{
+    /* padding: auto 0; */
+    display: flex;
+    align-self:stretch;
+    flex-direction: row;
+    justify-content:space-between;
+    gap: 5px;
+    align-items: center;
+    /* height: 100%; */
+    
+
+  }
+  @media screen and (max-width:552px) {
+    .frame{
+      flex-wrap: wrap;
+
+    }
+  }
