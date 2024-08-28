@@ -16,7 +16,7 @@ body{
 } */
 .container-testimonial{
     position: relative;
-    width: 90%;
+    width: 100%;
     /* min-width: 350px;
     min-height: 250px; */
     padding-bottom: 40px;
@@ -32,7 +32,8 @@ margin: 0 auto;
     transition: 1s;
 }
 .card-testimonial{
-    width: 800px;
+    width: 90%;
+    /* width: 800px; */
     min-height: 100%;
     background: #fff;
     border-radius: 20px;
@@ -84,9 +85,9 @@ margin: 0 auto;
     align-items: center;
 }
 .review{
-    font-size: 20px;
-    line-height: 30px;
-    margin-top: 30px;
+    font-size:1rem;
+    line-height: 1.25;
+    /* margin-top: 30px; */
 }
 .rating{
     position: absolute;

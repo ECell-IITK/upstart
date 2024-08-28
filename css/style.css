@@ -3476,9 +3476,9 @@ flex-basis: 50%;
   ===========
    */
   
-  align-items: center;
+  /* align-items: center;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-around; */
 }
 
 .part2 .team .name {
