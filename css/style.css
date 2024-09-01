@@ -1141,7 +1141,7 @@ object-fit:cover;
 
 }
 
-.accordion-item-header.active::after {
+.accordion-item-header.pressed::after {
   content: "\2212";
 }
 
@@ -2529,7 +2529,7 @@ flex-basis: 50%;
     right: 1rem;
   }
   
-  .accordion-item-header.active::after {
+  .accordion-item-header.pressed::after {
     content: "\2212";
   }
   
