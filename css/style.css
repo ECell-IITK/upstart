@@ -1135,9 +1135,10 @@ object-fit:cover;
 
 .accordion-item-header::after {
   content: "\002B";
-  font-size: 3rem;
+  font-size: 2.5rem;
   position: absolute;
   right: 1rem;
+
 }
 
 .accordion-item-header.active::after {

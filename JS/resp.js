@@ -176,6 +176,7 @@ inputs.forEach((input) => {
   input.addEventListener("blur", blurFunc);
 });
 
+
 // Judging Criteria
 const accordionItemHeaders = document.querySelectorAll(
   ".accordion-item-header"
