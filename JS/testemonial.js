@@ -2,7 +2,7 @@ const wrapper = document.querySelector('.wrapper-testimonial');
 const indicators_testimonial = [...document.querySelectorAll('.indicators button')];
 
 let currentTestimonial = 0; // Default index
-let testimonialInterval = setInterval(nextTestimonial, 2000); // Automatic slide every 2 seconds
+let testimonialInterval = setInterval(nextTestimonial, 4000); // Automatic slide every 2 seconds
 
 // Function to move to the next testimonial
 function nextTestimonial() {
