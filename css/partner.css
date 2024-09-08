@@ -1,10 +1,12 @@
 .section{
-    padding-top: 0;
     display: none;
   }
   .option{
     background-color: black;
     height: 200px;
+  }
+  .toggle{
+    display: block;
   }
   .btn{
     font-size: 1rem;
