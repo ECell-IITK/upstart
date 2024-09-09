@@ -874,7 +874,11 @@ object-fit:cover;
 .incentive {
   background-color: rgb(0, 0, 0);
 }
-
+.incentive .img-container{
+  width: 80%;
+  height: 50%;
+margin: 0 auto 0 auto;
+}
 .incentive .underline {
   margin: 0 39%;
   margin-top: -4px;
