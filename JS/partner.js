@@ -33,7 +33,7 @@ buttons.forEach((button) => {
             });
             // Display only the selected section
             section.style.display = 'block';
-            // e.target.style.color = "white";
+            e.target.style.color = "#00D1A0";
 
         }
 

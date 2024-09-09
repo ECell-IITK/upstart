@@ -27,10 +27,11 @@ font-weight: 400;
   .btn:hover{
     cursor: pointer;
     color: rgb(30, 215, 215);
-    font-size: 2.25rem;
+    /* font-size: 2.25rem; */
   }
   .btn:active{
     color: rgb(26, 188, 203);
+    border: 1px solid white;
   }
   .frame{
     /* padding: auto 0; */
