@@ -876,7 +876,7 @@ object-fit:cover;
 }
 .incentive .img-container{
   width: 80%;
-  height: 50%;
+  height: 293px;
 margin: 0 auto 0 auto;
 }
 .incentive .underline {
@@ -920,6 +920,7 @@ margin: 0 auto 0 auto;
   text-align: center;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  padding-bottom: 2rem;
   
   font-family:sans-serif;
 }
