@@ -887,9 +887,10 @@ margin: 0 auto 0 auto;
 }
 
 
-@media screen and (min-width: 500px) {
-  #incentive-card {
-    width: 31%;
+@media screen and (min-width: 722px) {
+  .colo1.incentive-card1 {
+    width: 30%;
+    /* border: 2px solid red; */
   }
 }
 
