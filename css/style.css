@@ -887,7 +887,7 @@ margin: 0 auto 0 auto;
 }
 
 
-@media screen and (min-width: 772px) {
+@media screen and (min-width: 500px) {
   #incentive-card {
     width: 31%;
   }
