@@ -48,6 +48,8 @@ li {
   text-align: center;
 }
 
+
+
 /* Scroll button Styling */
 .scroll {
   z-index: 99999;
@@ -76,7 +78,7 @@ li {
 .header {
   width: 100%;
   background-image: linear-gradient(rgba(4, 9, 30, 0), rgba(4, 9, 30, 0.1)),
-    url(../img/greybg.png);
+    url(../img/upstartbg1.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -156,7 +158,7 @@ nav img {
 }
 
 .navlinks ul li a {
-  color: black;
+  color: rgb(211, 208, 208);
   text-decoration: none;
   font-size: 20px;
   /* font-weight: 200; */
@@ -168,6 +170,7 @@ nav img {
 }
 
 .navlinks ul li::after {
+  
   content: "";
   width: 0%;
   height: 2px;
