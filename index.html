@@ -34,19 +34,23 @@
   <!-- ------Home------ -->
   <nav class="navbar background navback hnavresp">
     <div style="
-          display: flex;
-          width: 300px;
-          align-items: center;
-          justify-content: space-between;
-          margin-left: 10px;
-          height: min-content;
-          position: relative;
-          top: 5px;
-        ">
-      <a href="https://ecelliitk.org" style="width: 20%"><img src="img/logo.png" alt="" class="src"
-          style="width: 100%; object-fit: contain" /></a>
-      <a href="https://ecelliitk.org/upstart" style="width: 70%; object-fit: contain"><img
-          src="img/UpstartLogo2-01 (2).png" alt="" class="src" style="width: 100%; object-fit: contain" /></a>
+        display: flex;
+        width: 300px;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 10px;
+        height: min-content;
+        position: relative;
+        top: 5px;
+      ">
+      <a href="https://ecelliitk.org" style="width: 20%">
+        <img src="img/logo.png" alt="E-Cell Logo" class="logo ecell-logo" style="width: 100%; object-fit: contain" />
+      </a>
+      <a href="https://ecelliitk.org/upstart" style="width: 70%; object-fit: contain">
+        <img src="img/upstartLogo.png" alt="UpStart Logo" class="upstart-logo"
+          style="width: 100%; object-fit: contain" />
+      </a>
+
     </div>
 
     <div class="navlinks navlist vclassresp">
@@ -74,6 +78,7 @@
     </div>
   </nav>
 
+
   <section class="header" id="home" style="padding: 0">
     <div class="main">
       <div class="left">
@@ -85,7 +90,7 @@
       </div>
 
       <div class="right">
-        <img src="img/businessbg.png" alt="" />
+        <img src="img/upstartLanding2.png" alt="" />
       </div>
     </div>
     <div class="arrow">
@@ -130,8 +135,8 @@
     <!-- <h2 class="heading1" style="color: white;">Event Timeline</h2>
       <div class="underline"></div> -->
     <div class="section-center timeline">
-      <div class="timeline-img timeline-img1"><img src="./img/timeLine25.png" alt=""></div>
-      <div class="timeline-img timeline-img2"><img src="./img/mapUpstart1.png" alt=""></div>
+      <div class="timeline-img timeline-img1"><img src="./img/timeLine1.png" alt=""></div>
+      <div class="timeline-img timeline-img2"><img src="./img/locations.png" alt=""></div>
   </section>
 
 
@@ -147,7 +152,7 @@
           <div class="rightline"></div>
           <div class="circle"></div>
         </div> -->
-      <img src="./img/nationals/upstartNationalPastYear.png" alt="" srcset="" id="upstartPreviousYear">
+      <img src="./img/nationals/pastYear1 (2).png" alt="" srcset="" id="upstartPreviousYear">
       <img src="./img/nationals/upstart hyderabad.png" alt="" srcset="" id="upstartPreviousYearDelhi">
       <img src="./img/nationals/Asset 2@4x.png" alt="" srcset="" class="past-description-box">
       <img src="./img/nationals/Asset 3@4x.png" alt="" srcset="" class="past-description-box">
@@ -1496,6 +1501,22 @@
       $("#contact-form").trigger("reset");
       return false;
     }
+    window.addEventListener('scroll', function () {
+      const navbar = document.querySelector('.navbar');
+      const upstartLogo = document.querySelector('.upstart-logo');
+
+      if (window.scrollY > 10) {
+        navbar.classList.add('scrolled');
+        upstartLogo.src = "img/UpstartLogo2-01 (2).png";  // new logo
+      } else {
+        navbar.classList.remove('scrolled');
+        upstartLogo.src = "img/upstartLogo.png";        // original logo
+      }
+    });
+
+
+
+
   </script>
 </body>
 
