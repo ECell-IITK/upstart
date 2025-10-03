@@ -1082,13 +1082,14 @@ margin: 0 auto 0 auto;
 
 .judging .underline {
   margin: 0 38%;
-  margin-top: -27px;
+  margin-top: -20px;
   margin-bottom: 36px;
 }
 
 .judging h1 {
   font-size: 40px;
   padding-bottom: 35px;
+  margin-top: 30px;
   text-align: center;
 }
 
@@ -2471,7 +2472,7 @@ flex-basis: 50%;
   
   .judging .underline {
     margin: 0 38%;
-    margin-top: -27px;
+    /* margin-top: -7px; */
     margin-bottom: 36px;
   }
   
