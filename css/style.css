@@ -4206,6 +4206,48 @@ align-items: center;
   color: black;
 }
 
+.mainrow {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  /* gap: 20px; */
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.colo1 {
+  width: 40%; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  /* padding: 20px; */
+  transition: transform 0.3s ease;
+}
+
+.colo1:hover {
+  transform: translateY(-5px);
+}
+
+.img-container {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
 
 
 
