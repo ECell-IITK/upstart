@@ -4248,6 +4248,68 @@ align-items: center;
   object-fit: contain;
 }
 
+/* Sponsors Section */
+.sponsors {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #000;
+}
+
+.sponsors .heading {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.sponsors .underline {
+  width: 80px;
+  height: 4px;
+  background-color: #066B23;
+  margin: 0 auto 40px;
+  border-radius: 2px;
+}
+
+.sponsor-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sponsor-card {
+  text-align: center;
+  color: #fff;
+}
+
+.sponsor-logo-wrapper {
+  display: inline-block;
+  padding: 20px;
+  border: 2px solid #066B23; /* green border around logo */
+  border-radius: 16px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.sponsor-logo-wrapper:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0, 255, 128, 0.2);
+}
+
+.sponsor-logo {
+  max-width: 180px;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  filter: brightness(0) invert(1); /* remove if colored logo */
+}
+
+.sponsor-description {
+  margin-top: 15px;
+  color: #ccc;
+  font-size: 0.95rem;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 
