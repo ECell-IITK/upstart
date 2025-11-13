@@ -4265,7 +4265,7 @@ align-items: center;
 .sponsors .underline {
   width: 80px;
   height: 4px;
-  background-color: #066B23;
+  background-color: #00b050;
   margin: 0 auto 40px;
   border-radius: 2px;
 }
@@ -4274,6 +4274,7 @@ align-items: center;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap; /* makes it responsive */
 }
 
 .sponsor-card {
@@ -4284,7 +4285,7 @@ align-items: center;
 .sponsor-logo-wrapper {
   display: inline-block;
   padding: 20px;
-  border: 2px solid #066B23; /* green border around logo */
+  /* border: 2px solid #00b050; */
   border-radius: 16px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -4311,6 +4312,24 @@ align-items: center;
   margin-right: auto;
 }
 
+/* Responsive layout for small screens */
+@media (max-width: 768px) {
+  .sponsor-container {
+    flex-direction: column; /* stack vertically */
+    gap: 30px;
+  }
+
+  .sponsor-logo {
+    max-width: 150px;
+  }
+}
+
+.navbar .upstart-logo {
+  height: 50px; /* or whatever fits your navbar */
+  width: auto;
+  transition: all 0.3s ease; /* smooth resizing if needed */
+  object-fit: contain;
+}
 
 
 /* 
